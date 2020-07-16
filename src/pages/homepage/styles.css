@@ -9,13 +9,7 @@ body {
   background-color: #f0f0f5;
 }
 
-body {
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  margin: 0;
-}
+
 
 /* Slider wrapper*/
 .css-slider-wrapper {
@@ -55,11 +49,7 @@ body {
 }
 /* each slide backgound color */
 .slide1 {
-  background-image: url(../../assets/pig.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
+  background: #f0f0f5;
 }
 .slide2 {
   background: #f0f0f5;
@@ -145,8 +135,7 @@ body {
   display: inline-block;
   background: rgba(255, 255, 255, 0.2);
   margin: 0 2px;
-  /*border: solid 1px rgba(255, 255, 255, 0.4);*/
-  border: solid 1px #000;
+  border: solid 1px rgba(255, 255, 255, 0.4);
   cursor: pointer;
 }
 /* Slider Pagger arrow event */
